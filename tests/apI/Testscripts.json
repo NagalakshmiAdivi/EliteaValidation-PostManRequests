@@ -1,4 +1,41 @@
 {
+  "folder": "TestRequests_03_12_26_15_41_02",
+  "testCases": [
+    {
+      "name": "TC001",
+      "full_postman_path": "TestRequests_03_12_26_15_41_02/TC001",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "headers": [],
+      "params": [],
+      "description": "Fetch '/posts' collection and verify non-empty JSON array of posts",
+      "preRequestScript": null,
+      "tests": null
+    },
+    {
+      "name": "TC002",
+      "full_postman_path": "TestRequests_03_12_26_15_41_02/TC002",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/posts/1",
+      "headers": [],
+      "params": [],
+      "description": "Fetch specific post by ID and verify returned resource fields",
+      "preRequestScript": null,
+      "tests": null
+    },
+    {
+      "name": "TC003",
+      "full_postman_path": "TestRequests_03_12_26_15_41_02/TC003",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/postsx",
+      "headers": [],
+      "params": [],
+      "description": "Call invalid endpoint '/postsx' and verify Not Found error",
+      "preRequestScript": null,
+      "tests": null
+    }
+  ]
+}
   "folder": "TestRequests_03_12_26_12_33_13",
   "items": {
     "TestRequests_03_12_26_12_33_13/TC001": {
