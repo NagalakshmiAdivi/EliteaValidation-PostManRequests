@@ -1,150 +1,35 @@
 {
-  "folder": "TestRequests_03_12_26_15_41_02",
-  "testCases": [
-    {
-      "name": "TC001",
-      "full_postman_path": "TestRequests_03_12_26_15_41_02/TC001",
-      "method": "GET",
-      "url": "https://jsonplaceholder.typicode.com/posts",
-      "headers": [],
-      "params": [],
-      "description": "Fetch '/posts' collection and verify non-empty JSON array of posts",
-      "preRequestScript": null,
-      "tests": null
-    },
-    {
-      "name": "TC002",
-      "full_postman_path": "TestRequests_03_12_26_15_41_02/TC002",
-      "method": "GET",
-      "url": "https://jsonplaceholder.typicode.com/posts/1",
-      "headers": [],
-      "params": [],
-      "description": "Fetch specific post by ID and verify returned resource fields",
-      "preRequestScript": null,
-      "tests": null
-    },
-    {
-      "name": "TC003",
-      "full_postman_path": "TestRequests_03_12_26_15_41_02/TC003",
-      "method": "GET",
-      "url": "https://jsonplaceholder.typicode.com/postsx",
-      "headers": [],
-      "params": [],
-      "description": "Call invalid endpoint '/postsx' and verify Not Found error",
-      "preRequestScript": null,
-      "tests": null
-    }
-  ]
-}
-  "folder": "TestRequests_03_12_26_12_33_13",
+  "folder_path": "TestRequests_03_12_26_16_43_05",
   "items": {
-    "TestRequests_03_12_26_12_33_13/TC001": {
-      "id": "c8ebea30-b548-4727-a2e4-1e095b3f50c6",
-      "name": "TC001",
-      "full_postman_path": "TestRequests_03_12_26_12_33_13/TC001",
+    "TestRequests_03_12_26_16_43_05/TC001": {
+      "id": "662402ad-c1bc-4455-816f-04a64d2b8bb4",
+      "full_postman_path": "TestRequests_03_12_26_16_43_05/TC001",
+      "type": "request",
       "method": "GET",
-      "url": "https://jsonplaceholder.typicode.com/posts",
-      "description": "Fetch '/posts' collection and verify non-empty JSON array and expected fields",
+      "request_url": "https://jsonplaceholder.typicode.com/posts",
       "headers": [],
-      "queryParams": [],
-      "preRequestScript": null,
-      "tests": null
+      "params": [],
+      "description": "Fetch full 'posts' collection and verify non-empty JSON array"
     },
-    "TestRequests_03_12_26_12_33_13/TC002": {
-      "id": "a1498844-11e2-4d0a-b8e9-dc2c46e9d4a4",
-      "name": "TC002",
-      "full_postman_path": "TestRequests_03_12_26_12_33_13/TC002",
+    "TestRequests_03_12_26_16_43_05/TC002": {
+      "id": "4cb12959-ad64-4d2f-89b9-944ba538fbad",
+      "full_postman_path": "TestRequests_03_12_26_16_43_05/TC002",
+      "type": "request",
       "method": "GET",
-      "url": "https://jsonplaceholder.typicode.com/users/1",
-      "description": "Retrieve specific user by id '/users/1' and verify required fields",
+      "request_url": "https://jsonplaceholder.typicode.com/posts/1",
       "headers": [],
-      "queryParams": [],
-      "preRequestScript": null,
-      "tests": null
+      "params": [],
+      "description": "Fetch specific post by ID=1 and verify returned fields"
     },
-    "TestRequests_03_12_26_12_33_13/TC003": {
-      "id": "9b1dcda0-1bd7-402c-a15e-b7bbbf9f04e3",
-      "name": "TC003",
-      "full_postman_path": "TestRequests_03_12_26_12_33_13/TC003",
+    "TestRequests_03_12_26_16_43_05/TC003": {
+      "id": "8d52ee71-b069-46ee-8ba4-8938ba5f64be",
+      "full_postman_path": "TestRequests_03_12_26_16_43_05/TC003",
+      "type": "request",
       "method": "GET",
-      "url": "https://jsonplaceholder.typicode.com/postsx",
-      "description": "Call invalid endpoint '/postsx' and verify not found error",
+      "request_url": "https://jsonplaceholder.typicode.com/postsx",
       "headers": [],
-      "queryParams": [],
-      "preRequestScript": null,
-      "tests": null
-    },
-    "TestRequests_03_12_26_09_23_39/TC001": {
-      "id": "42e57f41-bb37-48b9-a8a4-cdc98878d80b",
-      "name": "TC001",
-      "full_postman_path": "TestRequests_03_12_26_09_23_39/TC001",
-      "method": "GET",
-      "url": "https://jsonplaceholder.typicode.com/posts",
-      "description": "Fetch 'posts' collection and verify non-empty JSON array of posts",
-      "headers": [],
-      "queryParams": [],
-      "preRequestScript": null,
-      "tests": null
-    },
-    "TestRequests_03_12_26_09_23_39/TC002": {
-      "id": "25691dc6-b42f-4b23-9319-199e707273bb",
-      "name": "TC002",
-      "full_postman_path": "TestRequests_03_12_26_09_23_39/TC002",
-      "method": "GET",
-      "url": "https://jsonplaceholder.typicode.com/users/1",
-      "description": "Fetch user by ID and verify expected user fields",
-      "headers": [],
-      "queryParams": [],
-      "preRequestScript": null,
-      "tests": null
-    },
-    "TestRequests_03_12_26_09_23_39/TC003": {
-      "id": "2c6027fc-2c65-43b5-8842-4a5b7731ff6c",
-      "name": "TC003",
-      "full_postman_path": "TestRequests_03_12_26_09_23_39/TC003",
-      "method": "GET",
-      "url": "https://jsonplaceholder.typicode.com/postsx",
-      "description": "Call invalid endpoint '/postsx' and verify not found error",
-      "headers": [],
-      "queryParams": [],
-      "preRequestScript": null,
-      "tests": null
-    },
-    "TestRequests_03_12_26_15_05_59/TC001": {
-      "id": "c81e7b93-127c-4e6b-860d-c02460b00ead",
-      "name": "TC001",
-      "full_postman_path": "TestRequests_03_12_26_15_05_59/TC001",
-      "method": "GET",
-      "url": "https://jsonplaceholder.typicode.com/posts",
-      "description": "Fetch full 'posts' collection and verify non-empty JSON array of posts",
-      "headers": [],
-      "queryParams": [],
-      "preRequestScript": null,
-      "tests": null
-    },
-    "TestRequests_03_12_26_15_05_59/TC002": {
-      "id": "ca53276a-cf4f-48ac-839d-08dac5a95f9a",
-      "name": "TC002",
-      "full_postman_path": "TestRequests_03_12_26_15_05_59/TC002",
-      "method": "GET",
-      "url": "https://jsonplaceholder.typicode.com/postsx",
-      "description": "Call invalid endpoint '/postsx' and verify not found error",
-      "headers": [],
-      "queryParams": [],
-      "preRequestScript": null,
-      "tests": null
-    },
-    "TestRequests_03_12_26_15_05_59/TC003": {
-      "id": "b9056cd9-326f-4ebe-b37d-2276343f42f1",
-      "name": "TC003",
-      "full_postman_path": "TestRequests_03_12_26_15_05_59/TC003",
-      "method": "PUT",
-      "url": "https://jsonplaceholder.typicode.com/users/1",
-      "description": "Update existing user and verify fields are updated",
-      "headers": [],
-      "queryParams": [],
-      "preRequestScript": null,
-      "tests": null
+      "params": [],
+      "description": "Call invalid endpoint '/postsx' and verify not found error"
     }
   }
 }
