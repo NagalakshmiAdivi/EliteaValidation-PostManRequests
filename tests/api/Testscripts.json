@@ -1,0 +1,32 @@
+{
+  "folder_path": "TestRequests_03_12_26_10_55_58",
+  "tests": [
+    {
+      "id": "09e9c83d-c466-4b01-bf46-5c9f436185a8",
+      "name": "TC001",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "description": "Fetch full 'posts' collection and verify non-empty JSON array of posts",
+      "headers": [],
+      "queryParams": []
+    },
+    {
+      "id": "15ee4e66-2e72-4604-b58b-87743657b7af",
+      "name": "TC002",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/users/1",
+      "description": "Fetch individual 'users' resource by id and verify expected fields",
+      "headers": [],
+      "queryParams": []
+    },
+    {
+      "id": "0caf2a30-f1b1-4aae-a716-0991c3397b98",
+      "name": "TC003",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/postsx",
+      "description": "Call invalid endpoint '/postsx' and verify not found error",
+      "headers": [],
+      "queryParams": []
+    }
+  ]
+}
