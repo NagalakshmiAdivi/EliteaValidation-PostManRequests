@@ -68,5 +68,40 @@
         "description": "Call invalid endpoint '/postss' and verify not found error"
       }
     }
+  },
+  "TestRequests_03_13_26_04_35_36": {
+    "folder_path": "TestRequests_03_13_26_04_35_36",
+    "items": {
+      "TestRequests_03_13_26_04_35_36/TC001": {
+        "id": "c5d7781a-57e5-4ba7-b47b-0ed653cd6e26",
+        "full_postman_path": "TestRequests_03_13_26_04_35_36/TC001",
+        "type": "request",
+        "method": "GET",
+        "request_url": "https://jsonplaceholder.typicode.com/posts",
+        "headers": [],
+        "params": [],
+        "description": "Fetch '/posts' collection and verify non-empty JSON array"
+      },
+      "TestRequests_03_13_26_04_35_36/TC002": {
+        "id": "53ba0e39-2d85-4bf1-918e-7fc852722419",
+        "full_postman_path": "TestRequests_03_13_26_04_35_36/TC002",
+        "type": "request",
+        "method": "GET",
+        "request_url": "https://jsonplaceholder.typicode.com/users/1",
+        "headers": [],
+        "params": [],
+        "description": "Fetch individual user '/users/1' and verify expected fields"
+      },
+      "TestRequests_03_13_26_04_35_36/TC003": {
+        "id": "3eef494b-005e-44cd-ae02-f9f8cdab4a1f",
+        "full_postman_path": "TestRequests_03_13_26_04_35_36/TC003",
+        "type": "request",
+        "method": "GET",
+        "request_url": "https://jsonplaceholder.typicode.com/postsx",
+        "headers": [],
+        "params": [],
+        "description": "Call invalid endpoint '/postsx' and verify not found error"
+      }
+    }
   }
 }
